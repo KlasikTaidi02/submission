@@ -5,7 +5,7 @@ import streamlit as st
 
 
 
-df_all = pd.read_csv('main_data.csv')
+df_all = pd.read_csv('dashboard/main_data.csv')
 
 
 def create_averageindex_df(df):
